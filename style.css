@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+}
+
+body, body a {
+    font-family: 'Lato', sans-serif;
+    color: #222222;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.attentionText {
+    color: #f16d7f;
+}
+
+
+.container,
+.central_container {
+    margin: auto;
+}
+
+.container {
+    max-width: 1140px;
+}
+
+
+
+
+
+.standartParagraph {
+    font-size: 16px;
+    line-height: 26px;
+    opacity: .6;
+}
+
+button, .button{
+    padding: 13px 19px;
+    font-style: normal;
+    letter-spacing: 0.38px;
+    line-height: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background-color: #f16d7f;
+    display: inline-block;
+    border: none;
+}
+
+button, .button, select {
+    cursor: pointer;
+}
+
+.header {
+
+}
+
+    .top {
+        padding: 25px 0;
+    }
+
+        .topContainer {
+            justify-content: space-between;
+            padding-right: 0px;
+        }
+
+        .topContainer, .topLeft, .topRight {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+            .topLeft, .topRight {
+                flex: 1;
+            }
+
+                .logoBlock {
+                    display: flex;
+                    align-items: center;
+                }
+
+                    .logoText {
+                        font-size: 27px;
+                        line-height: 32px;
+                        padding-left: 15px;
+                    }
+
+            .topLeft {
+                justify-content: space-between;
+            }
+
+
+                        .logoText .attentionText {
+                            font-weight: bold;
+                        }
+
+                    .searchBlock {
+                        display: flex;
+                    }
+
+                        .searchSelect, .searchInputTest, .searchSubmit {
+                            border: none;
+                            border: 1px solid #e6e6e6;
+                            padding: 13px;
+                        }
+
+                        .searchSelect {
+                            border-right: none;
+                            background-color: #cdcdcc;
+                            background-image: linear-gradient(to bottom, #f9f9f9 0%, #f5f5f5 100%);
+                            border-radius: 3px 0 0 3px;
+                        }
+
+                        .searchInputTest {
+                            border-right: none;
+                        }
+
+                        .searchSubmit {
+                            background-color: #fff;
+                            border-radius: 0 0 3px 3px;
+                        }
+
+
+            .topRight {
+                flex-direction: row-reverse;
+            }
+
+                .accountTopBlock {
+                    display: flex;
+                    align-items: center;
+                }
+
+                    .topBasket {
+                        display: flex;
+                        padding: 10px;
+                        margin-right: 20px;
+                    }
+
+
+    .navigate {
+        border-top: 1px solid #e6e6e6;
+    }
+        .menu {
+            display: flex;
+            list-style: none;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+            .menu li a {
+                padding: 20px 25px;
+                text-transform: uppercase;
+                text-decoration: none;
+                color: #222222;
+                font-size: 14px;
+                font-weight: bold;
+                display: flex;
+            }
+
+    .headerInfo {
+        background-color: #e8e8e8;
+    }
+        .headerInfoContainer {
+            background-image: url("img/topManCut.jpg");
+            background-repeat: no-repeat;
+            background-position: bottom right;
+            min-height: 615px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+            .headerInfoMainTextBlock{
+                display: flex;
+                letter-spacing: normal;
+                font-weight: bold;
+                padding-bottom: 60px;
+            }
+                .headerInfoMainTextBlockLeft {
+                    background-color: #f16d7f;
+                    width: 12px;
+                    height: 92px;
+                }
+                .headerInfoMainTextBlockRigtht {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    padding-left: 20px;
+                }
+
+                    .mainTitle {
+                        font-size: 60px;
+                        line-height: 42px;
+                    }
+
+                    .mainText{
+                        font-size: 40px;
+                        line-height: 42px;
+                    }
+
+
+
+
+
+.offers {
+    margin-top: 90px;
+}
+    .offersContainer {
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+        .offersContainer, .offerBlock {
+            display: flex;
+        }
+
+            .offerBlock {
+                width: 560px;
+                flex-direction: column;
+            }
+
+
+                .offer{
+                    width: 100%;
+                    background-color: #e8e8e8;
+                    margin: 10px 0;
+                }
+
+                .bigOffer {
+                    height: 542px;
+                }
+
+                .smallOffer {
+                    height: 261px;
+                }
+
+                .offer.forMen {
+                    background-image: url("img/forMen.jpg");
+                    background-repeat: no-repeat;
+                }
+
+                .offer.accesories {
+                    background-image: url("img/accesories.png");
+                    background-repeat: no-repeat;
+                }
+
+                .offer.Women {
+                    background-image: url("img/women.png");
+                    background-repeat: no-repeat;
+                }
+
+                .offer.forKids {
+                    background-image: url("img/forKids.png");
+                    background-repeat: no-repeat;
+                }
+
+                    .offerTitleBlock {
+                        display: inline-flex;
+                        flex-direction: column;
+                        background-color: #ffffff;
+                        width: auto;
+                        padding: 15px 20px;
+                        margin-top: 25px;
+                        text-transform: uppercase;
+                        font-weight: bold;
+                    }
+
+                    .offerTypeTitle {
+                        font-size: 18px;
+                    }
+
+                    .offerTitle {
+                        font-size: 30px;
+                    }
+
+
+
+
+
+
