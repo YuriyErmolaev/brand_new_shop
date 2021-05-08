@@ -30,9 +30,19 @@ body a {
     max-width: 1140px;
 }
 
+h2, .blockWithCenteredContent {
+    text-align: center;
+}
 
+.italicText {
+    font-style: italic;
+}
 
-
+figcaption {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
 
 .standartParagraph {
     font-size: 16px;
@@ -279,6 +289,482 @@ button, .button, select {
                         font-size: 30px;
                     }
 
+
+.featured {
+    margin-top: 100px;
+}
+    .featuredSectionTitle {
+        font-size: 30px;
+    }
+    .featuredSubTitle {
+        color: #9f9f9f;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 16px;
+    }
+
+    .featuredItemsBlock {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+
+
+        .featureItem {
+            margin: 30px 0;
+        }
+
+            .featureItemImgBlock {
+                width: 260px;
+                height: 280px;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .featureImg1 {
+                background-image: url("img/featureImg1.png");
+            }
+            .featureImg2 {
+                background-image: url("img/featureImg2.png");
+            }
+            .featureImg3 {
+                background-image: url("img/featureImg3.png");
+            }
+            .featureImg4 {
+                background-image: url("img/featureImg4.png");
+            }
+            .featureImg5 {
+                background-image: url("img/featureImg5.png");
+            }
+            .featureImg6 {
+                background-image: url("img/featureImg6.png");
+            }
+            .featureImg7 {
+                background-image: url("img/featureImg7.png");
+            }
+            .featureImg8 {
+                background-image: url("img/featureImg8.png");
+            }
+
+            .featureItemInfoBlock {
+                padding: 20px 15px;
+            }
+                .featureItemTitleBlock {
+                    font-size: 13px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                }
+                .featureItemPriceBlock {
+                    margin-top: 17px;
+                    color: #f16d7f;
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+    .featuredButtonBlock {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+    }
+        .feturedButton {
+            display: flex;
+            align-items: center;
+        }
+            .featuredButtonArrowIcon {
+                margin-left: 10px;
+            }
+
+.competitiveAdvantages {
+    margin-top: 113px;
+}
+    .competitiveAdvantagesContainer {
+        flex-wrap: wrap;
+    }
+
+        .competitiveAdvantagesContainer,
+        .competitiveAdvantagesLeft,
+        .competitiveAdvantagesRight
+        {
+            display: flex;
+        }
+
+        .competitiveAdvantagesLeft {
+            flex: 2;
+            min-height: 530px;
+            background-position: center center;
+            background-size: cover;
+            background-image: url("img/offerGirl.png");
+            background-repeat: no-repeat;
+            min-width: 300px;
+            flex-direction: column;
+            justify-content: center;
+            padding: 40px;
+            box-sizing: border-box;
+            font-weight: 400;
+        }
+
+            .mainOfferInfoMainTextBlock {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                display: flex;
+                letter-spacing: normal;
+                padding-bottom: 60px;
+                /*font-weight: bold;*/
+                color: #fff;
+            }
+
+                .mainOffermainTitle {
+                    font-size: 54px;
+                }
+
+                .mainOffermainText{
+                    font-size: 32px;
+                }
+
+        .competitiveAdvantagesRight {
+            flex: 1;
+            background-color: #222224;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 10px;
+        }
+            .competitiveAdvantageItem {
+                margin: 30px;
+                display: flex;
+            }
+
+            .competitiveAdvantageItemTextBlock {
+                width: 230px;
+                color: #fbfbfb;
+                font-size: 14px;
+                margin-left: 30px;
+            }
+                .competitiveAdvantageItemTitle {
+                    margin-bottom: 15px;
+                    font-size: 20px;
+                    font-weight: normal;
+                }
+
+
+.preFooter {
+    margin-top: 100px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("img/preFooterBG.png");
+    background-color: #f2f2f2;;
+}
+    .preFooterContainer {
+        height: 438px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+        .quoteBlockWrap, .subscribeBlock {
+            display: flex;
+            flex: 1;
+        }
+
+        .quoteBlockWrap {
+            align-items: center;
+            border-right: 1px solid #fff;
+        }
+
+        .quoteBlock  {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .quoteBlock {
+
+        }
+
+
+
+            .infoIconBlock {
+
+            }
+
+                .infoIconBlock,
+                .infoRightBlock {
+                    display: flex;
+                }
+
+                .infoRightBlock {
+                    flex-direction: column;
+                    margin-left: 30px;
+                }
+
+                .infoQuote {
+                    width: 385px;
+                    text-align: justify;
+                }
+
+            .checkerBlock {
+                display: flex;
+                justify-content: center;
+            }
+
+            .commentCheckerBlock {
+                margin-top: 40px;
+                justify-content: left;
+                padding-left: 110px;
+            }
+
+                .checkerItem {
+                    width: 38px;
+                    height: 4px;
+                    background-color: #d6d6d6;
+                    margin: 6px;
+                    cursor: pointer;
+                }
+                .checkerItemActive {
+                    background-color: #f16d7f;
+                }
+
+
+        .subscribeBlock {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+            .subscribeBlockTitle {
+                font-size: 24px;
+                text-transform: uppercase;
+            }
+            .subscribeBlockAnnotation {
+                font-size: 14px;
+                margin-top: 12px;
+            }
+            .subscribeForm {
+                display: flex;
+                margin-top: 35px;
+            }
+
+                .subscribeFormEmailInput,
+                .subscribeFormSubmitButton {
+                    padding-top: 15px;
+                    padding-bottom: 15px;
+                }
+
+                .subscribeFormEmailInput {
+                    padding-left: 28px;
+                    padding-right: 28px;
+                    width: 230px;
+                    font-size: 14px;
+                    font-weight: bold;
+                    background-color: #e1e1e1;
+                    border: none;
+                    border-radius: 23px 0 0 23px;
+                }
+
+                .subscribeFormSubmitButton {
+                    border-radius: 0 23px 23px 0;
+                }
+
+
+
+footer {
+    margin-top: 100px;
+}
+    .mainBlockFooterContainer {
+        display: flex;
+        flex-wrap: wrap;
+    }
+        .footerArticle,
+        footer .mainSubMenusBlock {
+            margin-top: 20px;
+        }
+
+
+        .footerArticle {
+
+        }
+
+            .footerParagraph {
+                width: 427px;
+                margin-top: 30px;
+                color: #898989;
+                font-size: 14px;
+            }
+
+
+        .mainSubMenusBlock {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+            .subMenuBox {
+
+            }
+
+                .subMenuBoxTitle {
+
+                }
+
+                .subMenu {
+                    list-style: none;
+                }
+
+                    .subMenu li {
+                        display: flex;
+                    }
+
+                    .subMenu a {
+
+                    }
+
+
+
+        footer .mainSubMenusBlock {
+            margin-left: 20px;
+        }
+
+            footer .subMenuBox {
+                margin: 0 50px;
+            }
+
+                footer .subMenuBoxTitle {
+                    font-size: 18px;
+                    color: #f16d7f;
+                }
+
+                footer .subMenu {
+                    list-style: none;
+                    margin-top: 20px;
+                }
+
+                    footer .subMenu a {
+                        padding: 10px 0;
+                        color: #898989;
+                        font-size: 16px;
+                    }
+
+
+
+        header .menu li {
+            position: relative;
+        }
+
+            header .mainSubMenusBlock {
+                margin-left: 0px;
+                position: absolute;
+                background-color: #fff;
+                flex-wrap: nowrap;
+                display: none;
+            }
+
+            header .menu li:hover .mainSubMenusBlock {
+                display: flex;
+                border-radius: 5px;
+                padding-bottom: 20px;
+            }
+
+            header .menu li:last-child .mainSubMenusBlock {
+                right: 0px;
+            }
+
+                header .subMenuBox {
+                    margin: 0 30px;
+                }
+
+                    header .subMenuBoxTitle {
+                        font-size: 14px;
+                        color: #232323;
+                        width: 235px;
+                        padding-bottom: 10px;
+                        border-bottom: 1px solid #e8e8e8;;
+                    }
+
+                    header .subMenu {
+                        list-style: none;
+                        margin-top: 10px;
+                    }
+
+                        header .subMenu a {
+                            padding: 5px 0;
+                            color: #646464;
+                            font-size: 14px;
+                            text-transform: lowercase;
+                            font-weight: normal;
+                        }
+
+
+
+
+
+
+
+
+
+    .reserved {
+        background-color: #e6e6e6;
+        padding: 15px 0;
+        margin-top: 90px;
+    }
+        .reservedContainer {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+            .reservedText {
+                color: #7a7a7a;
+                font-size: 16px;
+            }
+
+            .socials {
+                display: flex;
+            }
+
+                .socialItem {
+                    font-size: 16px;
+                    font-weight: bold;
+                    color: #b2b2b2;
+                    background-color: #fff;
+                    padding: 6px 12px;
+                    margin: 5px;
+                }
+
+
+
+.firstLine {
+    background-color: #f8f3f4;
+}
+    .firstLineContainer {
+        padding: 65px 0px;
+    }
+
+.productBlock {
+    background-color: #f7f7f7;
+}
+
+    .productBlockContainer {
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: center;
+    }
+
+        .productMainImg {
+            width: 50%;
+        }
+
+
+.productDetailsBlock {
+
+}
+
+    .productDetailsBlockContainer {
+        background-color: #ffffff;
+        border: 1px solid #eaeaea;
+        padding: 73px;
+        margin-top: -80px;
+        z-index: 1;
+    }
 
 
 
