@@ -10,6 +10,8 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/9412d2868b.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -563,16 +565,22 @@
 
         <form class="productDetailsForm" action="#">
 
-            <label for="color">CHOOSE SIZE</label>
-            <input type="color" name="color" id="color">
+
+            <label for="color">CHOOSE COLOR</label>
+            <input class="form-select" type="color" name="color" id="color">
 
             <label for="size">CHOOSE SIZE</label>
-            <details id="size">
-                <summary>XXL</summary>
-            </details>
+            <select name="size" class="form-select" aria-label="size select" id="size">
+                <option selected>M</option>
+                <option value="1">L</option>
+                <option value="2">XL</option>
+                <option value="3">XXL</option>
+            </select>
 
-            <label for="QUANTITY">CHOOSE SIZE</label>
+            <label for="QUANTITY">CHOOSE QUANTITY</label>
             <input type="number" name="QUANTITY" id="QUANTITY">
+
+
 
 
         </form>
@@ -788,6 +796,7 @@
 
 
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
 </body>
 </html>
