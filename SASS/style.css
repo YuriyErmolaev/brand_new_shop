@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  transition: opacity 0.5s;
 }
 
 body, body a {
@@ -18,6 +19,47 @@ body a {
 
 .container, .central_container {
   margin: auto;
+}
+
+button, .button, button a, a.button {
+  transition: background-color 0.5s, color 0.5s, border 0.5s, opacity 0.5s;
+}
+
+.featureItem, .addTobasketLinkWrap {
+  transition: transform 0.5s;
+}
+
+.featureItem:hover {
+  z-index: 1;
+  transform: scale(1.5);
+}
+
+.addTobasketLinkWrap:hover {
+  transform: rotate(360deg);
+}
+
+body .mainSubMenusBlock {
+  display: flex;
+}
+
+body .mainSubMenusBlock, body .subMenuArrow {
+  opacity: 0;
+}
+
+body .subMenuArrow {
+  display: block;
+}
+
+body .menu li:hover .mainSubMenusBlock, body .menu li:hover .subMenuArrow {
+  opacity: 1;
+}
+
+body .menu li:hover .mainSubMenusBlock, body .menu li:hover .subMenuArrow {
+  z-index: 2;
+}
+
+body .menu li:hover .subMenuArrow {
+  z-index: 3;
 }
 
 /*# sourceMappingURL=style.css.map */
