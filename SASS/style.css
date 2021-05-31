@@ -826,6 +826,10 @@ input, textarea, select, .formField {
   filter: brightness(50%);
 }
 
+footer .subMenuBox {
+  width: auto;
+}
+
 @media screen and (max-width: 1140px) {
   .container {
     padding: 0 5px;
